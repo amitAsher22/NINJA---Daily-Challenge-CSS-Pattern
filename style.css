@@ -1,0 +1,27 @@
+
+.boxs {
+    width: 80%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(16 , 40px);
+    grid-template-rows: repeat(16 ,40px);
+    grid-gap: 6px;
+    justify-content: center;
+   
+}
+
+.zone {
+    border: 1px solid black;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.brown{
+    background-color: rgb(216, 199, 146);;
+}
+
+.Chocolate{
+    background-color: Chocolate;;
+}
